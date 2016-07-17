@@ -1,0 +1,174 @@
+/**select all*/
+* {
+	color: #000000;
+}
+/*body tag*/
+body {
+	background: none repeat scroll 0 0 #fff;
+	color: #222;
+	margin: 0;
+}
+/*a tags*/
+a {
+	color: #222;
+	text-decoration: none;
+}
+/*a tags hovered*/
+a:hover {
+	color: #222;
+	text-decoration: underline;
+}
+/*a tags that has class button and hovered*/
+a.button:hover {
+	text-decoration: none;
+}
+/*Top nav*/
+/*class topNav*/
+.topNav {
+	float:right;
+	margin-right: 25px;
+}
+/*class topNav and li tags inside*/
+.topNav li{
+	list-style: none;
+	display: inline-block;
+	padding: 5px 10px 0 0;
+	vertical-align: bottom;
+	margin: 5px 5px 0 0;
+	font-size: 13px;
+}
+/*class topNav li tags inside and a tags inside*/
+.topNav li a {
+	position: relative;
+	top: -3px;
+}
+/*font awesome standard class .fa*/
+.fa {
+	font-size: 20px;
+	vertical-align: top;
+	opacity: 0.7;
+	cursor: default;	
+}
+/*class .fa on user hover*/
+.fa:hover {
+	opacity: 1.0;
+	cursor: pointer;
+}
+/*elements with a class of shareButton*/
+.shareButton {
+	background-color: #f2f2f2;
+	padding: 7px 15px;
+	cursor: pointer;
+	position: relative;
+	top: -3px;
+}
+/*elements with class profileImg*/
+.profileImg {
+	border-radius: 25px;
+	height: 32px;
+	width: 32px;
+	position: relative;
+	top: 7px;
+}
+/*Middle Section searchBox*/
+/*class of searchBox*/
+.searchBox {
+	position: absolute;
+	margin-top:75px;
+	width:100%;
+}
+/*class searchBox and img tags inside*/
+.searchBox img {
+	padding: 142px 0 24px 0;
+	display: block;
+	margin: 0 auto;
+}
+/*searchBox and input tags inside*/
+.searchBox input {
+	width: 600px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #d9d9d9;
+	font-size: 16px;
+	border-radius: 5px;
+	display: block;
+}
+/*class searchBox input tags inside that are focused*/
+.searchBox input:focus {
+	border-color: #f5f5f5;
+}
+/*searchButtons class*/
+.searchButtons {
+	text-align: center;
+	padding-left: 0;
+}
+/*class searchButtons and button tags inside*/
+.searchButtons button {
+	background-color: #f5f5f5;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 27px;
+	margin: 17px 6px;
+	padding: 0 12px;
+	display: inline-block;
+	cursor: pointer;
+}
+/*class searchButtons and button tags inside hover*/
+.searchButtons button:hover {
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	color: #333;
+}
+/*bottom section*/
+/*class bottomLinks*/
+.bottomLinks {
+	bottom: 0 !important;
+	position: absolute;
+	width: 100%;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+/*class left and right*/
+.left, .right {
+	margin: 0;
+}
+/*class left*/
+.left {
+	float: left;
+	padding-left: 20px;
+}
+/*class right*/
+.right {
+	float: right;
+	padding-right: 10px;
+}
+/*class left and li tags inside*/
+/*class right and li tags inside*/
+.left li,
+.right li {
+	list-style: none;
+	display: inline;
+	line-height: 40px;
+}
+/*class right and li tags inside and first a tags*/
+.right li a:first-child {
+	padding-right: 8px;
+}
+/*class of left and li tags inside and 2nd a tags*/
+.left li:nth-child(2),
+.left li:nth-child(3) {
+	margin-left: 7px;
+}
+/*class left and li tags inside and all a tags*/
+/*class right and li tags insiede and all a tags*/
+.left li a,
+.right li a {
+	color: #666;
+	margin: 2px 10px 0;
+	letter-spacing: 0.1px;
+	font-size: 14px;
+}
