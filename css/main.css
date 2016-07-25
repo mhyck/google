@@ -172,3 +172,36 @@ a.button:hover {
 	letter-spacing: 0.1px;
 	font-size: 14px;
 }
+
+/*=====media queries======*/
+
+@media (max-width: 800px) {
+	.searchBox input {
+		width: 80%;
+	}
+}
+
+
+@media (max-width: 420px) {
+	.shareButton {
+		display: none;
+	}
+	.left {
+		text-align: center;
+		padding: 0;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.right {
+		text-align: center;
+		padding: 0;
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 370px) {
+	img.profileImg {
+		display: none;
+	}
+}
